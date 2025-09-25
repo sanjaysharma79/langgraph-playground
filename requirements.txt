@@ -2,5 +2,10 @@ streamlit
 langchain_core
 langchain_community
 langchain_ollama
-tavily-python
 langgraph
+langgraph_supervisor
+langgraph-swarm
+tavily-python
+duckduckgo-search
+pycoingecko
+yfinance

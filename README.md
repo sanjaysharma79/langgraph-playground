@@ -32,7 +32,6 @@ source venv/bin/activate
 ```
 
 Setup using conda:
-
 ```bash
 conda create --name langgraph python=3.12.4
 conda activate langgraph

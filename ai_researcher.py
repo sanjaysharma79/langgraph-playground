@@ -7,11 +7,14 @@ from langchain_ollama import ChatOllama
 from langgraph.graph import START, END, StateGraph
 from typing_extensions import TypedDict
 
+# =============================================================================
 # Setup:
 # Description:AI Agent using Deepseek, LangGraph, and Streamlit to find results from the web that matches the user's query and give a summarized answer based on those results.
 # ollama pull deepseek-r1:8b
 # export TAVILY_API_KEY=<your-tavily-api-key>
 # streamlit run ai_researcher.py
+# Sample Test Question: what is quantum physics?
+# =============================================================================
 
 
 summary_template = """
