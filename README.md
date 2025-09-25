@@ -14,19 +14,31 @@
 
 ```bash
 python3 -m venv venv
-Windows (Command Prompt): venv/Scripts/Activate
-Windows (PowerShell): venv\Scripts\Activate.ps1
-Mac: source venv/bin/activate
 ```
 
-Setup using conda
+For Windows Command Prompt (cmd.exe):
+```bash
+venv\Scripts\activate.bat
+```
+
+For Windows PowerShell:
+```bash
+venv\Scripts\Activate.ps1
+```
+
+For Mac and Linux:
+```bash
+source venv/bin/activate
+```
+
+Setup using conda:
 
 ```bash
 conda create --name langgraph python=3.12.4
 conda activate langgraph
 ```
 
-Deactivate the environment: 
+Deactivate the conda environment: 
 ```bash
 conda deactivate
 ```
